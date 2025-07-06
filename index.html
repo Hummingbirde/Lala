@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Freelance Copywriter | James James</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+    body { background-color: #ecf0f1; color: #2c3e50; line-height: 1.6; }
+    header, section, footer { padding: 2rem; max-width: 960px; margin: auto; }
+    header { text-align: center; background-color: #2c3e50; color: white; padding: 4rem 2rem; border-radius: 0 0 2rem 2rem; }
+    header h1 { font-size: 2.5rem; }
+    header p { font-size: 1.2rem; margin: 1rem 0; }
+    .btn { background-color: #1abc9c; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 1rem; font-size: 1rem; cursor: pointer; transition: background 0.3s; text-decoration: none; display: inline-block; }
+    .btn:hover { background-color: #16a085; }
+    section { margin-top: 2rem; }
+    h2 { font-size: 2rem; margin-bottom: 1rem; color: #2c3e50; }
+    .testimonial { background-color: white; padding: 1rem; border-radius: 1rem; box-shadow: 0 2px 10px rgba(0,0,0,0.1); margin-bottom: 1rem; }
+    form { display: flex; flex-direction: column; gap: 1rem; }
+    input, textarea { padding: 0.75rem; border-radius: 0.5rem; border: 1px solid #ccc; font-size: 1rem; }
+    footer { text-align: center; font-size: 0.9rem; margin-top: 3rem; color: #777; }
+    @media (max-width: 600px) {
+      header h1 { font-size: 2rem; }
+      h2 { font-size: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>James James</h1>
+    <p>Professional Freelance Copywriter for Hire</p>
+    <a href="#contact"><button class="btn">Contact Me</button></a>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>I’m a creative, results-driven freelance copywriter who crafts compelling content that connects, converts, and delivers real impact. With a flair for storytelling and a strategy-focused mind, I help brands turn words into business.</p>
+  </section>
+
+  <section>
+    <h2>Services</h2>
+    <ul>
+      <li>Sales & Landing Page Copy</li>
+      <li>Blog Articles & SEO Content</li>
+      <li>Email Campaigns & Newsletters</li>
+      <li>Product Descriptions</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>My Work</h2>
+    <p>Here are a few of my recent copywriting samples that show how I turn ideas into impact:</p>
+
+    <div class="testimonial">
+      <strong>💼 30% Discount Ends Tomorrow — Are You Ready to Get Paid to Be You?</strong>
+      <p>A compelling story-driven email promoting an empowerment course for women with urgency and emotion.</p>
+      <a href="#" class="btn">View Sample</a>
+    </div>
+
+    <div class="testimonial">
+      <strong>📈 From Broke Graduate to 7 Figures in 5 Years</strong>
+      <p>A persuasive sales copy for a digital product course, built on personal transformation and clarity.</p>
+      <a href="#" class="btn">View Sample</a>
+    </div>
+
+    <div class="testimonial">
+      <strong>🔥 The Course I Wish I Had 5 Years Ago (Under $100)</strong>
+      <p>High-converting launch email using emojis, urgency, and relatability to drive quick action.</p>
+      <a href="#" class="btn">View Sample</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="mailto:jcubes26@gmail.com" method="POST" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 James James. All rights reserved.</p>
+  </footer>
+</body>
+</html>
